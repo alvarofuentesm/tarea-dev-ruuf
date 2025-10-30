@@ -66,7 +66,19 @@ def empty_positions(positions: list, roof_height: int, roof_width: int):
     # [0, 0],
     # [0, 0]
     # ]
-        
+    #
+    # 
+
+    # "roofW": 3, "roofH": 5
+    # =>
+    #[
+    #[0, 0, 0]
+    #[0, 0, 0],
+    #[0, 0, 0],
+    #[0, 0, 0],
+    #[0, 0, 0],
+    #]
+       
     for y in range(roof_height): # todos vacios al inicio
         positions.append([])
         for x in range(roof_width):
