@@ -34,7 +34,9 @@ Tu solución debe pasar los siguientes casos de prueba:
 
 ## 📝 Tu Solución
 
-Deja acá el link a tu video explicando tu solución con tus palabras
+Deja acá el link a tu video explicando tu solución con tus palabras_
+https://drive.google.com/file/d/1oHh18fvT8A3gzaqzsSK9m2R62UlfQov2/view?usp=sharing
+
 
 Se implementa un algoritmo que calcula el número de paneles al obtener una solución del escenario.
 
@@ -125,12 +127,14 @@ Por ejemplo, considerando el siguiente caso (rectangulo A de 4x4, rectangulo B d
 
 El techo vacio en su totalidad es representado de la siguiente forma, donde -1 son espacios no permitidos. 
 
+```
 [-1, -1, 0, 0,  0,  0]
 [-1, -1, 0, 0,  0,  0]
 [ 0,  0, 0, 0,  0,  0]
 [ 0,  0, 0, 0,  0,  0]
 [ 0,  0, 0, 0, -1, -1]
 [ 0,  0, 0, 0, -1, -1]
+```
 
 Luego el problema es análogo al original considerando un solo rectangulo resultante de la superposición. 
 
