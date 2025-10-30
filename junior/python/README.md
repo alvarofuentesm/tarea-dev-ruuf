@@ -152,7 +152,7 @@ for y in range(roof_height_B + roof_height_A - gap_height):
         # do something
 ```
 
-Para la inserción de paneles la iteración de la misma. 
+Para la inserción de paneles la iteración es la misma. 
 
 ---
 
