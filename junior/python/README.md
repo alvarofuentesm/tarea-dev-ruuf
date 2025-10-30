@@ -85,9 +85,13 @@ Por ejemplo para 2 paneles con dos combinaciones:
 
 # => son 2**2 = 4 combinaciones
 ```    
-Se representa horizontal con False y vertical con True
+Se representa horizontal con False y vertical con True.
 
-Finalmente por cada permutación se busca una solución válida. Notar que por la simetría del techo y paneles, basta con revisar solo la mitad de permutaciones. 
+Finalmente por cada permutación se busca una solución válida utilizando como función de costo el espacio disponible en el  techo, es decir, se minimiza el espacio disponible.  
+
+Notar que por la simetría del techo y paneles, basta con revisar solo la mitad de permutaciones. 
+
+Se retorna el número de paneles de la mejor solución.  
 
 
 ---
