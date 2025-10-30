@@ -158,5 +158,5 @@ Para la inserción de paneles la iteración es la misma.
 
 ## 🤔 Supuestos y Decisiones
 
-*[Si tuviste que tomar algún supuesto o decisión de diseño, explícalo aquí]*
-
+- Espacio discreto.
+- Orientaciones posibles de paneles: horizontal y vertical.
